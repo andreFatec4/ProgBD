@@ -1,0 +1,5 @@
+pes = float(input("Digite a medida total em Pés: "))
+print("A Medida em Quilômetros = ", round(pes*0.3048/1000, 2))
+print("A Medida em Polegadas = ",  round(pes*12, 2))
+print("A Medida em Jardas = ",  round(pes/3, 2))
+print("A Medida em Milhas = ",  round(pes/3/1760, 2))
